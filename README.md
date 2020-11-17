@@ -11,3 +11,7 @@ https://blog.csdn.net/weixin_40327927/article/details/99685538
 
 c# 读取IntPtr 中的数据 z
 https://www.cnblogs.com/zeroone/p/4199141.html
+
+C#与C++之间类型的对应
+https://www.cnblogs.com/zjoch/p/5999335.html
+

@@ -40,7 +40,7 @@ namespace ConsoleApp1
                 
             
 
-            int myi = (int)buffer;
+            //int myi = (int)buffer;
             //MessageBox.Show(myi.ToString());
 
             //buffer = BytesToIntptr(testbuffer);
