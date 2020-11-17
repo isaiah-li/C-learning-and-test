@@ -9,3 +9,14 @@ F:\Project\vs\C#\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleA
 F:\Project\vs\C#\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
 F:\Project\vs\C#\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
 F:\Project\vs\C#\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+F:\Project\vs\Csharp-learning-and-test\MyFirestConsoleApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
