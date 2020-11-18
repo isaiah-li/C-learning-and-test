@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetBuffer", "GetBuffer\GetB
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CDynamicLibGetbuffer", "CDynamicLibGetbuffer\CDynamicLibGetbuffer.vcxproj", "{DF1FE4B6-9DFD-4976-ABCE-44A97A24F956}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestClib", "TestClib\TestClib.vcxproj", "{9EFBE708-D765-42ED-BE85-75EC099C780B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,16 @@ Global
 		{DF1FE4B6-9DFD-4976-ABCE-44A97A24F956}.Release|x64.Build.0 = Release|x64
 		{DF1FE4B6-9DFD-4976-ABCE-44A97A24F956}.Release|x86.ActiveCfg = Release|Win32
 		{DF1FE4B6-9DFD-4976-ABCE-44A97A24F956}.Release|x86.Build.0 = Release|Win32
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Debug|x64.ActiveCfg = Debug|x64
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Debug|x64.Build.0 = Debug|x64
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Debug|x86.Build.0 = Debug|Win32
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Release|x64.ActiveCfg = Release|x64
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Release|x64.Build.0 = Release|x64
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Release|x86.ActiveCfg = Release|Win32
+		{9EFBE708-D765-42ED-BE85-75EC099C780B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

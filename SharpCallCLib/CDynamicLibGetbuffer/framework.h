@@ -10,11 +10,23 @@
 using namespace std;
 using namespace cv;
 
-extern "C"
-{
-	__declspec(dllexport) uchar* GetImgBuffer(const string p_name, int & i_size, int & i_width, int & i_height, uchar* p_buffer);
 
-	__declspec(dllexport) uchar* FreeImgBuffer(uchar* p_buffer);
+#ifdef __cplusplus //而这一部分就是告诉编译器，如果定义了__cplusplus(即如果是cpp文件，
+extern "C" { //因为cpp文件默认定义了该宏),则采用C语言方式进行编译
+#endif
 
+
+#ifdef DLL_EXPORTS 
+#define DLL_EXPORTS __declspec(dllexport)  
+#else 
+#define DLL_EXPORTS __declspec(dllimport)  
+#endif 
+
+	DLL_EXPORTS  uchar* GetImgBuffer(const char* p_name, int & i_size, int & i_width, int & i_height, uchar* p_buffer);
+
+	DLL_EXPORTS  uchar* FreeImgBuffer(uchar* p_buffer);
+
+#ifdef __cplusplus
 }
+#endif
 
