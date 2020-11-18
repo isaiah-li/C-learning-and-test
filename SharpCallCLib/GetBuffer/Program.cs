@@ -9,10 +9,10 @@ namespace GetBuffer
 {
     class Program
     {
-        [DllImport("CDynamicLibGetbuffer.dll")]
-        private static extern unsafe byte* GetImgBuffer(string p_imgName, ref int i_Size, ref int i_Width, ref int i_Height, byte* p_buffer);
-        [DllImport("CDynamicLibGetbuffer.dll")]
-        private static extern unsafe byte* FreeImgBuffer(byte* p_buffer);
+        [DllImport("CDynamicLibGetbuffer.dll", CallingConvention = CallingConvention.Cdecl)]
+        public static extern unsafe byte* GetImgBuffer(string p_imgName, ref int i_Size, ref int i_Width, ref int i_Height, byte* p_buffer);
+        [DllImport("CDynamicLibGetbuffer.dll", CallingConvention = CallingConvention.Cdecl)]
+        public static extern unsafe byte* FreeImgBuffer(byte* p_buffer);
 
         static void Main(string[] args)
         {
@@ -20,6 +20,7 @@ namespace GetBuffer
             {
                 byte* imgBuffer = null;
                 string imgName = "F:/DL/data/test.jpg";
+                Console.WriteLine(imgName);
                 int i_Size = 0;
                 int i_Width = 0;
                 int i_Height = 0;

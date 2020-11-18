@@ -17,7 +17,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     return TRUE;
 }
 
-uchar* GetImgBuffer(const string p_imgName, int & i_size, int & i_width, int & i_height, uchar* p_buffer)
+uchar* GetImgBuffer(const char* p_imgName, int & i_size, int & i_width, int & i_height, uchar* p_buffer)
 {
 	Mat src = imread(p_imgName);
 
