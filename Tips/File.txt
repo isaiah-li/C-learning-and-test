@@ -1,0 +1,2 @@
+1、string path = @"C:\Users\除不尽\Desktop\1.txt";
+string[] contents = File.ReadAllLines(path,Encoding.Default);
