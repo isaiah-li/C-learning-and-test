@@ -71,7 +71,7 @@ namespace ShowAnim
             mainView.Add(photoView_1);
             mainView.Add(photoView_2);
 
-            CreatePhoto1Animation();
+            CreatePhotoAnimation();
 
         }
 
@@ -91,9 +91,12 @@ namespace ShowAnim
             app.Run(args);
         }
 
-        public void CreatePhoto1Animation()
+        public void CreatePhotoAnimation()
         {
             Animation animation = new Animation(2000);
+            animation.AnimateTo(photoView_1, "Orientation", new Rotation(new Radian(new Degree(180.0f)), PositionAxis.Y), 0, 1000);
+            animation.AnimateTo(photoView_1, "Orientation", new Rotation(new Radian(new Degree(360.0f)), PositionAxis.Y), 1000, 2000);
+            photoView_1.
             animation.AnimateTo(photoView_1, "Orientation", new Rotation(new Radian(new Degree(180.0f)), PositionAxis.Y), 0, 1000);
             animation.AnimateTo(photoView_1, "Orientation", new Rotation(new Radian(new Degree(360.0f)), PositionAxis.Y), 1000, 2000);
 
